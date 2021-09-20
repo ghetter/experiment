@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="shortcut image" href="#"/>
+	<meta http-equiv="content-type" content="text/HTML; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="google" content="notranslate"/>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="container">
+				<form class="search__form" action="index.html" method="post">
+					<div class="header__row">
+						<div class="header__logo">
+							<a href="#">Meliora</a>
+						</div>
+						<div class="header__menu menu">
+							<div class="menu__icon icon-menu">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<div class="menu__body">
+								<!-- Использую дополнительный класс .notexpandable для JQuery -->
+								<ul class="menu__list">
+									<li class="menu__item active">
+										<a href="#" class="menu__link notexpandable">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link notexpandable">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link notexpandable">Contact us</a>
+									</li>
+									<li class="menu__item">
+										<div class="menu__link link-expandable">
+											<p>More</p>
+											<ul class="link-expandable__list">
+												<li><a href="#" class="notexpandable">Share</a></li>
+												<li><a href="#" class="notexpandable">Designer</a></li>
+												<li><a href="#" class="notexpandable">Copyright</a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="header__search search">
+							<input placeholder="Search" type="search" class="search__input">
+							<button name="button" class="search__button"><img src="images/icons/search-button.svg" alt=""></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</header>
+		<main class="content">
+			<div class="container">
+				<div class="content__row">
+					<div class="content__column sidebar-about">
+						<div class="sidebar-about__title">What I do!</div>
+						<div class="sidebar-about__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, orci in bibendum luctus, turpis ante pretium velit, eu rutrum augue erat ac eros. Cras ultricies mattis convallis.
+						</div>
+						<div class="sidebar-about__link sb-link">
+							<a href="#" class="sb-link__item"><span>Explore Me</span></a>
+						</div>
+						<div class="sidebar-about__socials socials">
+							<ul class="socials__list">
+								<li class="socials__item">
+									<a href="#" class="socials__link">
+										<img src="images/icons/socials/facebook.svg" alt="facebook">
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link">
+										<img src="images/icons/socials/github.svg" alt="github">
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link">
+										<img src="images/icons/socials/twitter.svg" alt="twitter">
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link">
+										<img src="images/icons/socials/linkedin.svg" alt="linkedin">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content__column recent-posts">
+						<div class="recent-posts__header">
+							<div class="recent-posts__title">Recent Posts</div>
+							<div class="recent-posts__navigation rp-navigation">
+								<ul class="rp-navigation__list">
+									<li class="rp-navigation__tag tag-active">
+										<a href="#">All</a>
+									</li>
+									<li class="rp-navigation__tag">
+										<a href="#">Design Theory</a>
+									</li>
+									<li class="rp-navigation__tag">
+										<a href="#">Tech</a>
+									</li>
+									<li class="rp-navigation__tag">
+										<a href="#">User Interface</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="recent-posts__posts-list posts-list">
+							<div class="posts-list__content posts">
+								<div class="posts__row">
+									<div class="posts__date">September 24.2020</div>
+									<div class="posts__content">
+										<div class="posts__title">
+											Bad Design vs. Good Design: 5 Examples We can Learn From
+										</div>
+										<div class="posts__tags tags">
+											<ul class="tags__list">
+												<li>#HCI</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="posts__row">
+									<div class="posts__date">April 03.2020</div>
+									<div class="posts__content">
+										<div class="posts__title">
+										User Interface Design Guidelines: 10 Rules of Thumb
+									</div>
+										<div class="posts__tags tags">
+										<ul class="tags__list">
+											<li>#Design Thinking</li>
+										</ul>
+									</div>
+									</div>
+								</div>
+								<div class="posts__row">
+									<div class="posts__date">January 29.2020</div>
+									<div class="posts__content list-wrapped">
+										<div class="posts__title">
+											The 7 Factors that Influence User Experience
+										</div>
+										<div class="posts__tags tags">
+											<ul class="tags__list">
+												<li>#HCI</li>
+												<li>#Usability</li>
+												<li>#Design Thinking</li>
+												<li>+1</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="posts__row">
+									<div class="posts__date">September 14.2020</div>
+									<div class="posts__content">
+										<div class="posts__title">
+											Usability: A part of the User Experience
+										</div>
+										<div class="posts__tags tags">
+											<ul class="tags__list">
+												<li>#HCI</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="posts-list__pagintation pagination">
+								<div><img src="images/icons/sidebar-arrow_left.svg" alt=""></div>
+								<ul class="pagination__list">
+									<li class="pagination__page">1</li>
+									<li class="pagination__page page-active">2</li>
+									<li class="pagination__page">3</li>
+									<li class="pagination__page">4</li>
+									<li class="pagination__page">5</li>
+								</ul>
+								<div><img src="images/icons/sidebar-arrow_left.svg" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__copyright">
+						<span>Copyright</span><span>2020 Meliora, Inc</span>
+					</div>
+					<div class="footer__go-back go-back">
+						<a href="#header" class="go-back__link">
+							<img src="images/icons/sidebar-arrow_left.svg" alt="">
+						</a>
+					</div>
+					<div class="footer__socials socials">
+						<ul class="socials__list">
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<img src="images/icons/socials/facebook.svg" alt="">
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<img src="images/icons/socials/github.svg" alt="">
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<img src="images/icons/socials/twitter.svg" alt="">
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<img src="images/icons/socials/linkedin.svg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="scripts">
+		<script src="js/jq.js"></script>
+		<script src="js/script.js"></script>
+	</div>
+</body>
+</html>
