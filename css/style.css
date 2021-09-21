@@ -459,6 +459,9 @@ html {
     font-size: 20px;
     color: #474747;
   }
+  .header .menu__list li .link-expandable__list li {
+    background-color: #f9f9f9 !important;
+  }
   .header .search {
     max-width: 100%;
   }
