@@ -126,8 +126,18 @@ a, path, span {
   fill: #FFBA9D;
 }
 
+*::-moz-selection {
+  background-color: #EE918D;
+  color: #F6E1D3;
+}
+
+*::selection {
+  background-color: #EE918D;
+  color: #F6E1D3;
+}
+
 .header {
-  padding: 48px 0px 96px 0px;
+  padding: 48px 0px;
 }
 .header__row {
   display: -ms-flex;
@@ -147,6 +157,12 @@ a, path, span {
           flex: 0 0 25.25%;
   font-size: 24px;
   color: #474747;
+}
+.header__navigation {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .header .search {
   display: -ms-flex;
@@ -372,6 +388,7 @@ a, path, span {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
+  padding-top: 48px;
   padding-bottom: 134.49px;
 }
 .main__row {
@@ -510,6 +527,9 @@ a, path, span {
 .main .recent-posts .rp-navigation__item:hover > a span {
   color: #474747;
 }
+.main .recent-posts .rp-navigation__item.active {
+  pointer-events: none;
+}
 .main .recent-posts .rp-navigation__item.active > a span {
   color: #474747;
 }
@@ -589,6 +609,12 @@ a, path, span {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 27.173;
           flex: 0 0 27.173;
+}
+.main .recent-posts .tags {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .main .recent-posts .tags__list {
   max-width: 200px;
