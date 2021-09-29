@@ -567,12 +567,12 @@ body {
   .header .primary-navigation .icon-menu.active span:first-child {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    top: 8px;
+    top: -7px;
   }
   .header .primary-navigation .icon-menu.active span:last-child {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    top: 8px;
+    top: 14px;
   }
   .header .primary-navigation__body {
     position: fixed;
