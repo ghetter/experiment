@@ -223,9 +223,10 @@ a, path, span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 48px;
+  margin: 0px -24px;
 }
 .header .primary-menu__item {
+  padding: 0px 24px;
   position: relative;
 }
 .header .primary-menu__item > a span, .header .primary-menu__item > div span {
@@ -1007,16 +1008,19 @@ a, path, span {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    gap: 16px;
+    margin: -8px 0px;
+  }
+  .header .primary-navigation__body .primary-menu__item {
+    padding: 8px 0px;
+  }
+  .header .primary-navigation__body .primary-menu__item:not(.menu__item-has-child, .item-active):hover:after {
+    display: none;
   }
   .header .primary-navigation__body .primary-menu .menu__item-has-child {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .header .primary-navigation__body .primary-menu__item:not(.menu__item-has-child, .item-active):hover:after {
-    display: none;
   }
   .header .primary-navigation__body .secondary-menu, .header .primary-navigation__body .tertiary-menu {
     border: none;
