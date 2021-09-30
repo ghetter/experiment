@@ -1204,7 +1204,7 @@ a, path, span {
   .header .primary-navigation__body .primary-menu__item {
     padding: 8px 0px;
   }
-  .header .primary-navigation__body .primary-menu__item:not(.menu__item-has-child):not(.item-active):hover:after {
+  .header .primary-navigation__body .primary-menu__item:not(.menu__item-has-child, .item-active):hover:after {
     display: none;
   }
   .header .primary-navigation__body .primary-menu .menu__item-has-child {
