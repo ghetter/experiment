@@ -181,9 +181,6 @@ a, path, span {
   -webkit-transition: all 0.125s ease-in;
   transition: all 0.125s ease-in;
 }
-.header__logo:hover {
-  color: #ffba9d;
-}
 .header__navigation {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -578,22 +575,7 @@ a, path, span {
      object-fit: cover;
 }
 .main .article .article-header__cover div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  -webkit-transform: translate(-50%, -500%) scale(0);
-          transform: translate(-50%, -500%) scale(0);
-  -webkit-transition: all 0.75s ease-in;
-  transition: all 0.75s ease-in;
-  background-color: #EE918D;
-  color: #F6E1D3;
-}
-.main .article .article-header__cover:hover div {
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
+  display: none;
 }
 .main .article__content {
   margin: 0px 0px 64.46px 0px;
@@ -915,6 +897,9 @@ a, path, span {
 .main .article .article-bottom .c-responses .main-comment__avatar {
   margin: 0px 24px 0px 0px;
 }
+.main .article .article-bottom .c-responses .main-comment__content:hover .main-comment__name {
+  color: #ffba9d;
+}
 .main .article .article-bottom .c-responses .main-comment__name-n-time {
   display: -ms-flex;
   display: -webkit-box;
@@ -930,6 +915,8 @@ a, path, span {
   font-size: 19px;
   line-height: 28px;
   color: #474747;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .main .article .article-bottom .c-responses .main-comment__time {
   font-size: 16px;
@@ -966,6 +953,9 @@ a, path, span {
 .main .article .article-bottom .c-responses .answers .answer__avatar {
   margin: 0px 24px 0px 0px;
 }
+.main .article .article-bottom .c-responses .answers .answer__content:hover .answer__name {
+  color: #ffba9d;
+}
 .main .article .article-bottom .c-responses .answers .answer__name-n-time {
   display: -ms-flex;
   display: -webkit-box;
@@ -981,6 +971,8 @@ a, path, span {
   font-size: 19px;
   line-height: 28px;
   color: #474747;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .main .article .article-bottom .c-responses .answers .answer__time {
   font-size: 16px;

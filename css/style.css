@@ -181,9 +181,6 @@ a, path, span {
   -webkit-transition: all 0.125s ease-in;
   transition: all 0.125s ease-in;
 }
-.header__logo:hover {
-  color: #ffba9d;
-}
 .header__navigation {
   -webkit-user-select: none;
      -moz-user-select: none;
